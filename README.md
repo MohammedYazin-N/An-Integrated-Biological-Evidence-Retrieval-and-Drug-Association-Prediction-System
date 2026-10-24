@@ -126,9 +126,9 @@ The saved model only loads with the same scikit-learn version that created it, s
 
 ---
 
-## Creators 
+## Team Behind the Project 
 
-Mohammed Yazin N, MSc Data Science and Bio AI
-Arun PS , MSc Data Science and Bio AI
-Archana T , MSc Data Science and Bio AI
-Nihala Thajudheeen , MSc Data Science and Bio AI
+- Mohammed Yazin N, MSc Data Science and Bio AI
+- Arun PS, MSc Data Science and Bio AI
+- Archana T, MSc Data Science and Bio AI
+- Nihala Thajudheen, MSc Data Science and Bio AI
