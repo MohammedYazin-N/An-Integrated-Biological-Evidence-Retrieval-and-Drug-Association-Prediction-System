@@ -1,0 +1,3 @@
+Disease,Gene,Variant,Drug,Predicted_Label,Predicted_Association_Score,Ranking
+breast cancer,CYP2D6,rs3892097,Tamoxifen,0,0.215,1
+breast cancer,CYP2D6,rs3892097,Letrozole,0,0.215,2
