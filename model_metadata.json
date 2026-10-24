@@ -1,0 +1,26 @@
+{
+  "model_name": "extra_trees",
+  "target_column": "Association_Label",
+  "input_features": [
+    "Disease",
+    "Gene",
+    "Variant",
+    "Drug"
+  ],
+  "data_source": "ml_model_features.csv (only dataset used)",
+  "target_definition": "1 = positive association example in the dataset's construction, 0 = negative example. A label of 0 does not necessarily mean the drug is clinically ineffective.",
+  "selected_model_metrics": {
+    "model_name": "extra_trees",
+    "accuracy": 0.8491379310344828,
+    "precision": 0.757847533632287,
+    "recall": 0.5827586206896552,
+    "f1_score": 0.6588693957115009,
+    "specificity": 0.9379310344827586,
+    "roc_auc": 0.8202675386444709,
+    "pr_auc": 0.7129001999719449
+  },
+  "limitations": [
+    "Trained on one dataset and one split; may not generalize.",
+    "A high score means statistical similarity to positive training examples, not proof of clinical effectiveness."
+  ]
+}
