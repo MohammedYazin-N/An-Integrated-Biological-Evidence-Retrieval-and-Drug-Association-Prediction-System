@@ -1,0 +1,1 @@
+An integrated BIO AI system combining biological evidence retrieval with machine learning–based disease–gene–variant–drug association prediction and candidate ranking to support biomedical research and drug candidate prioritization.
