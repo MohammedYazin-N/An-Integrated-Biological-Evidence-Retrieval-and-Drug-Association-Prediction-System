@@ -557,7 +557,7 @@ PAGES = {
 
 
 with st.sidebar:
-    st.markdown("###  BIOINTEL AI 🧬")
+    st.markdown("###  BioIntel AI 🧬")
     st.caption(
         "Artificial Intelligence for Biological Discovery."
     )
