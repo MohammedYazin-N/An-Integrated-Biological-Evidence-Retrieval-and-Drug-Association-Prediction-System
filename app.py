@@ -559,7 +559,7 @@ PAGES = {
 with st.sidebar:
     st.markdown("###  BIOINTEL AI 🧬")
     st.caption(
-        "Biological Intelligence Powered by AI"
+        "Artificial Intelligence for Biological Discovery."
     )
 
     choice = st.radio(
