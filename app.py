@@ -555,11 +555,27 @@ PAGES = {
     "Model Information": page_model_info,
 }
 
+
 with st.sidebar:
-    st.markdown("### BIO AI")
-    st.caption("Disease-Gene-Variant-Drug evidence and prediction")
-    choice = st.radio("Navigate", list(PAGES.keys()), label_visibility="collapsed")
+    st.markdown("###  BIOINTEL AI 🧬")
+    st.caption(
+        "An Integrated Biological Evidence Retrieval and Drug Association Prediction System"
+    )
+
+    choice = st.radio(
+        "Navigate",
+        list(PAGES.keys()),
+        label_visibility="collapsed"
+    )
+
     st.divider()
+
     st.caption(f"Dataset: {len(data):,} records")
+
+    st.markdown("---")
+    st.caption(
+        "Evidence-driven insights powered by Bioinformatics and Machine Learning."
+    )
+
 
 PAGES[choice]()
