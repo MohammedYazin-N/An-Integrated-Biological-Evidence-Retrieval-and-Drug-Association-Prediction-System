@@ -2,7 +2,7 @@
 
 An integrated BIO AI system that combines biological evidence retrieval with machine learning-based disease–gene–variant–drug association prediction and candidate ranking, to support biomedical research and drug candidate prioritization.
 
-**Live app:** https://bio-ai-project.streamlit.app/
+**Live app:** [https://bio-ai-project.streamlit.app/](https://biointelai.streamlit.app/)
 
 ---
 
