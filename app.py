@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-st.set_page_config(page_title="BIO AI", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="An-Integrated-Biological-Evidence-Retrieval-and-Drug-Association-Prediction-System",page_icon="🧬",layout="wide", initial_sidebar_state="expanded")
 
 # ----------------------------------------------------------------------
 # File paths (all files sit in the same folder as app.py)
@@ -256,8 +256,9 @@ def four_inputs(prefix):
 # Pages
 # ----------------------------------------------------------------------
 def page_overview():
-    hero("BIO AI", "Evidence-guided disease-gene-variant-drug association retrieval "
-                   "and ML-based candidate ranking")
+    hero("An Integrated Biological Evidence Retrieval and Drug Association Prediction System",
+    "Evidence-guided Disease-Gene-Variant-Drug Retrieval and ML-Based Candidate Ranking"
+    )
 
     k = st.columns(6)
     k[0].metric("Records", f"{len(data):,}")
